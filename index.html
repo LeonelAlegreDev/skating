@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<title>Skating</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/fonts.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable="no">
+	</head>
+	<body>
+	<div id="wrapper">
+		<!--Start Banner-->
+		<header id="banner">
+			<h1>SKATING</h1>
+			<!--Start Slider-->
+			<div id="slideContainer">
+				<div id="cardContainer">		
+					<article class="card"><h2>THE BEST SKATE NEWS</h2></article>
+					<article class="card"><h2>THE BEST SKATE VIDEOS</h2></article>
+					<article class="card"><h2>THE BEST SKATE CONTESTS</h2></article>
+					<article class="card"><h2>THE BEST SKATE PAGE</h2></article>
+				</div>
+				<div id="buttonContainer">
+					<a id="boton_next" class="slideButton" onclick="moveRight()"><i class="icon-chevron-left"></i></a>
+					<a id="boton_prev" class=articleslideButton" onclick="moveLeft()"><i class="icon-chevron-right"></i></a>			
+				</div>
+			</div>
+			<!--End Slider-->					
+		</header>
+		<!--End Banner-->
+		<!--Start Navbar-->
+        <nav id="navbar">
+            <div id="navLeft">
+                <span>Skating</span>
+            </div>
+            <div id="navRight">
+                <ul>
+                    <li>
+                        <a class="home"><i class="icon-home"></i><span>Home</span></a>
+                        <a class="home"><i class="icon-home"></i><span>Home</span></a>
+                    </li>
+                    <li>
+                        <a><i class="icon-exclamation"></i><span>About</span></a>
+                        <a><i class="icon-exclamation"></i><span>About</span></a>
+                    </li>
+                    <li>
+                        <a><i class="icon-picture-o"></i><span>Gallery</span></a>
+                        <a><i class="icon-picture-o"></i><span>Gallery</span></a>
+                    </li>
+                    <li>
+                        <a><i class="icon-file-text-o"></i><span>News</span></a>
+                        <a><i class="icon-file-text-o"></i><span>News</span></a>
+                    </li>
+                    <li>
+                        <a><i class="icon-correo2"></i><span>Contact</span></a>
+                        <a><i class="icon-correo2"></i><span>Contact</span></a>
+                    </li>
+                </ul>	
+            </div>
+        </nav>
+        <!--End Navbar-->	
+		<!--Start Welcome-->
+		<section id="welcome">
+			<h1>WELCOME BACK!</h1>
+			<article class="articulo">
+				<h2>Skate Videos</h2>
+				<img src="imagenes/article2.png" alt="Skate Videos">
+				<p>Watch the best skaters and their most popular clips and join them by uploading your skate videos</p>
+			</article>
+			<article class="articulo">
+				<h2>Skate Contests</h2>
+				<img src="imagenes/as_skate_Sheckler_5762.jpg" alt="Skate Contests">
+				<p>Follow your favorite skaters in the best competitions and participate for a chance to join them in the tournament</p>
+			</article>
+			<article class="articulo">
+				<h2>Skate Shop</h2>
+				<img src="imagenes/skateshop.jpg" alt="Skate Shop">
+				<p>Find the best items for your skate! Subscribe to SKATING to receive discounts and participate in monthly drawings</p>
+			</article>
+		</section>
+		<!--End Welcome-->
+		<!--Start OurPark-->
+		<section id="ourPark">
+			<h2>Our Skate Park</h2>
+		    <article>
+		        <img src="imagenes/skate_png.png" alt="">
+			    <p>Come visit us and have fun at the best skate park in the area! Founded in 2010 with the purpose of providing a safe and quality place to practice this sport. Sicen then we hace supported the skate community to grow and now the time has come for you to become part of the skate brotherhood</p>
+		    </article>
+			 <span>Enter the park</span>
+		</section>
+		<!--End OurPark-->
+		<!--Start News-->
+		<section id="news">
+			<h2> News & Events</h2>
+			<article>
+				<img src="imagenes/article3.png" alt="XGames2022">
+				<div class="newsInfo">
+					<h3><a>X Games 2022: Full Results, Medal Winners and Best Trick Highlights</a></h3>
+					<span>10/08/2022</span>
+					<p>Here is a look at the full results of the X Games 2022 competition in Asia.</p>
+				</div>
+			</article>
+			<article class="reverse">
+				<img src="imagenes/newsSkateCamera.jpg" alt="NewSkateCamera">
+				<div class="newsInfo">
+					<h3><a>Insta360 One X2: the ultimate skateboarding pocket camera</a></h3>
+					<span>10/11/2016</span>
+					<p>Insta360 One X brought 360-degree capture to the mainstream in a simple, powerful package, allowing users to change how they shot their world.</p>
+				</div>
+			</article>
+			<article>
+				<img src="imagenes/newsPowellPeralta1.jpg" alt="Powell-Peralta">
+				<div class="newsInfo">
+					<h3><a>Powell-Peralta: the story of the iconic skateboard company</a></h3>
+					<span>10/11/2021</span>
+					<p>Powell-Peralta is a skateboard company founded in 1978 by George Powell and Stacy Peralta.</p>
+				</div>
+			</article>
+		</section>
+		<!--End News-->
+		<!--Start Subscribe-->
+		<section id="subscribe">
+			<h2>Subscribe to get monthly newsletter</h2>
+			<form action="#" method="">
+				<input type="email" id="email" placeholder="Enter your Email..." required>
+				<input type="submit" id="send">
+				<label for="send"><span>Go</span></label>
+			</form>
+			<p>For more information about the subscription please read the 
+				<a>Privacy policy</a></p>
+		</section>
+		<!--End Subscribe-->
+		<!--Start Footer-->
+		<footer>
+		    <ul>
+				<li><a><i class="icono icon-twitter"></i></a></li>
+				<li><a><i class="icono icon-facebook"></i></a></li>
+				<li><a><i class="icono icon-googlep"></i></a></li>
+				<li><a><i class="icono icon-instagram"></i></a></li>
+        	</ul>
+        	<div id="footerCredits">
+        	    <span>© 2017 Skating. All Rights Reserved | Design by </span><a>Leonel Alegre</a>
+        	</div>
+		</footer>
+		<!--End Footer-->
+	</div>
+	<div id="scroll_cont">
+		<i class="icon-chevron-up"></i>
+	</div>
+
+	<script src="js/slider.js"></script>		
+	<script src="js/scrollTop.js"></script>
+	</body>
+</html>
