@@ -79,6 +79,7 @@ body{
 @media (max-width: 500px){
     #banner{
         height: 400px;
+        background-image: url(../imagenes/banner_background_small.jpg);
     }
     #banner h1{
         padding: 10px 30px;
